@@ -1,0 +1,24 @@
+.header {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.input[type='text'] {
+  height: 30px;
+  width: 100%;
+  border: solid 1px;
+}
+
+.blocks {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(3, 31%);
+  grid-template-rows: repeat(3, 100%);
+  grid-column-gap: 30px;
+  grid-row-gap: 80px;
+}
+.block {
+  background-color: darkgrey;
+}

@@ -1,0 +1,37 @@
+.header {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.input[type='text'] {
+  height: 30px;
+  width: 100%;
+  border: solid 1px;
+}
+
+.blocks {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px;
+  grid-column-gap: 30px;
+  grid-row-gap: 80px;
+}
+.block {
+  background-color: darkgrey;
+}
+
+.contents {
+  display: grid;
+  margin: 30px auto;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 300px;
+  grid-column-gap: 30px;
+  grid-row-gap: 80px;
+  background-color: darkgrey;
+}
