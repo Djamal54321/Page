@@ -13,12 +13,10 @@
 
 .blocks {
   display: grid;
-  grid-auto-flow: row;
-  grid-template-columns: repeat(3, 31%);
-  grid-template-rows: repeat(3, 100%);
-  grid-column-gap: 30px;
-  grid-row-gap: 80px;
+  grid-template-columns: repeat(3, 1fr);
 }
 .block {
   background-color: darkgrey;
+  grid-column-gap: 30px;
+  grid-row-gap: 80px;
 }
