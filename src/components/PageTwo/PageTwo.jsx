@@ -1,6 +1,6 @@
 import React from 'react';
 import './PageTwo.css';
-import Block from './Block.jsx';
+import Block from '../Block.jsx';
 
 let blockData = [
   { element: '1' },
